@@ -238,9 +238,9 @@ def mbf():
         login()
 
     os.system('clear')
-    print'\x1b[1;98 
+    print
     time.sleep(0.01)
-    print \{ '1.) Crack Friend'
+    print '1.) Crack Friend'
     time.sleep(0.01)
     print '2.) Crack Public '
     time.sleep(0.01)
