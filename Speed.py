@@ -299,8 +299,8 @@ def pilih_mbf():
             sys.stdout.flush()
             time.sleep(1)
 
-    print #####
-    '\033[1;96m
+    print
+    
     jalan('\nEnter 07 PASSWORD REG ARBAB ALI MEMON')
     pass1 = raw_input('Password 1 \xe2\x80\xa2 ')
     pass2 = raw_input('Password 2 \xe2\x80\xa2 ')
