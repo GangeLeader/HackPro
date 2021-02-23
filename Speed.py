@@ -70,10 +70,10 @@ logo = """
 ╚═╝░░╚═╝╚═╝░░╚═╝╚═════╝░╚═╝░░╚═╝╚═════╝░                                                     
                                                      
 \x1b[1;93m--------------------------------------------------------------
-\x1b[1;92m➣ NAME :          ARBAB ALI MEMON
-\x1b[1;91m➣ CYBER NAME :  BLACK HAT GANGE LEADER
-\x1b[1;93m➣ WHATSAPP NO :    +923003023263 
-\x1b[1;95m➣ NOTE :       IF WORK SLOWLY CONNECT VPN INDO
+\x1b[1;92m➣ NAMA 💉 ARBAB ALI MEMON
+\x1b[1;91m➣ INFO 💉 HACKER 0.128R.S
+\x1b[1;93m➣ SPED 💉 3.0PYTHON LOVER
+\x1b[1;95m➣ NMBR 💉 03003023263:9PM
 \x1b[1;93m--------------------------------------------------------------
 \033[1;91m       🔷🔷🔷———————————————————————————————🔷🔷🔷
 \033[1;91m      __  __            __   _           
